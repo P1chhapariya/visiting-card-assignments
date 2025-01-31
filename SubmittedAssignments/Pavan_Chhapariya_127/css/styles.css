@@ -1,0 +1,250 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    border-radius: 0pt;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.02mm 10.0mm, rgba(0, 0, 0, 0.22) 0mm 3.9mm 3.1mm;
+    overflow: hidden;
+}
+
+.card1-background {
+    background-color:#FFFFFF;
+    text-align: center;
+}
+
+.card1-content
+{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.triangle-left {
+  right: 0mm;
+  top: -12mm;
+	border-top: 100px solid transparent;
+	border-right: 110px solid #F69220;
+	border-bottom: 100px solid transparent;
+  position: absolute;
+}
+
+.triangle-up {
+  right: -20mm;
+ bottom: 0mm;
+	border-left: 100px solid transparent;
+	border-right: 110px solid transparent;
+	border-bottom: 100px solid #F8B617;
+  z-index: 0;
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  left: 75mm;
+  top: -20mm;
+  height: 8mm;
+  width: 8mm;
+  transform: rotate(320deg);
+  z-index: 2;
+}
+
+.qr-img {
+  position: absolute;
+  left: 70mm;
+  top: 8mm;
+  height: 15mm;
+  width: 15mm;
+  z-index: 2;
+}
+.org-name-id
+{
+  position: absolute;
+  left: 69mm;
+  top: -12mm;
+  height: 12mm;
+  width: 12mm;
+  z-index: 2;
+}
+.org-heding-line
+{
+  position: absolute;
+  left: 77mm;
+  top: -12mm;
+  height: 12mm;
+  width: 12mm;
+  color: black;
+  z-index: 2;
+}
+
+  .party-name
+  {
+    text-align-last: inherit;
+    position: relative;
+    top: -20mm;
+    left: 0mm;
+    font-size: 11pt;
+    color: rgba(23, 21, 21, 0.713);
+    z-index: 2;
+  }
+  .party-sir-name
+  {
+    text-align-last: inherit;
+    position: relative;
+    top: -26mm;
+    left: 16mm;
+    font-size: 11pt;
+    color: rgb(209, 133, 27);
+    z-index: 2;
+  }
+  
+  .party-job-title
+  {
+    font-optical-sizing: auto;
+    position: relative;
+    top: -27mm;
+    left: 4mm;
+    font-size: 8pt;
+    color: black;
+  }
+
+  .line {
+    position: absolute;
+    left: 6mm;
+    top: -10mm;
+    width: 32mm;
+    height: 0.1px;
+    background-color: rgb(243, 227, 227);
+  }
+  
+  .bi, .fa,.fa-globe {
+    width: 3mm;
+    height: 3mm;
+    border-radius: 40mm;
+    color: white;
+    text-align: center;
+    font-size: 7pt;
+  }
+  .bi-telephone, .bi-envelope, .fa-map-marker ,.fa-solid{
+    background-color:#FB901B;
+  }
+ .party-phone
+ {
+  position: relative;
+  top: -22mm;
+  left: 6mm;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  color: rgba(0, 0, 0, 0.664);
+ }
+
+ .party-email
+ {
+  position: relative;
+  top: -20mm;
+  left: 6mm;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  color: rgba(0, 0, 0, 0.564);
+ }
+
+.party-address
+{
+  position: relative;
+  top: -18mm;
+  left: 6mm;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+  color: rgba(0, 0, 0, 0.664);
+}
+  .card-back{
+    background-color:#023047;
+  }
+  .card2-background
+  {
+    background-color: rgb(198, 33, 33);
+    text-align: center;
+  }
+
+  .card2-content
+  {
+    height: 100%;
+    top: 50%;
+    left: 20%;
+    /* transform: translate(-30%, -50%); */
+    color: #bb5151;
+    position: absolute;
+  }
+
+  .Right-big 
+  {
+  right: 0mm;
+  top: -12mm;
+	border-top: 120px solid transparent;
+	border-right: 110px solid #F69220;
+	border-bottom: 120px solid transparent;
+  position: absolute;
+  z-index: 1;
+  }
+
+  .Right-mid 
+  {
+  right: -4mm;
+  top: 10mm;
+	border-top: 100px solid transparent;
+	border-right: 100px solid #F9B619;
+	border-bottom: 100px solid transparent;
+  position: absolute;
+  }
+
+  .logo-img
+  {
+    position: absolute;
+    height: 10mm;
+    width: 10mm;
+    top: -10mm;
+    left: 7mm;
+    transform: rotate(350deg);
+    z-index: 0;
+  }
+
+ .org-name
+  {
+    text-align-last: inherit;
+    position: relative;
+    top: -0.5mm;
+    left: -9mm;
+    font-size: 14pt;
+    color: white;
+    z-index: 1;
+  }
+
+  .org-heding{
+
+    text-align-last: inherit;
+    position: relative;
+    top: -7.9mm;
+    left: 5mm;
+    font-size: 14pt;
+    color: rgb(231, 18, 18);
+    z-index: 1;
+  }
+
+  .org-tagline{
+    text-align-last: inherit;
+    position: relative;
+    top: -8.8mm;
+    left: -2.7mm;
+    color: rgb(191, 191, 191);
+    font-size: 8pt;
+    z-index: 2;
+  }
+  
